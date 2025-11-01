@@ -2,7 +2,7 @@
 
 client_id = "b76f3b7c28193e4dc59893602469f2f9"
 name = "B2B-Login"
-application_url = "https://example.com"
+application_url = "https://b2-b-login-2.vercel.app"
 embedded = true
 
 [build]
@@ -25,4 +25,4 @@ api_version = "2026-01"
 scopes = "write_products,write_customers,read_customers"
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [ "https://b2-b-login-2.vercel.app/auth" ]
